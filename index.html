@@ -13,8 +13,8 @@
 
 <body class="bg-black text-white">
 
-    <div class="flex container w-[85%] mx-auto">
-        <div class="first w-[20%] px-3">
+    <div class="flex container w-full md:w-[85%] mx-auto">
+        <div class="first md:w-[20%] px-3">
             <div class="logo my-3 pl-3">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class="w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -30,33 +30,33 @@
                 <ul class="flex flex-col text-2xl space-y-3">
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">home</span>Home</li>
+                        <span class="material-symbols-outlined text-3xl">home</span><span class="hidden md:block">Home</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">search</span>Explore</li>
+                        <span class="material-symbols-outlined text-3xl">search</span><span class="hidden md:block">Explore</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">notifications</span>Notifications</li>
+                        <span class="material-symbols-outlined text-3xl">notifications</span><span class="hidden md:block">Notifications</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">mail</span>Message</li>
+                        <span class="material-symbols-outlined text-3xl">mail</span><span class="hidden md:block">Message</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">edit_square</span>Grok</li>
+                        <span class="material-symbols-outlined text-3xl">edit_square</span><span class="hidden md:block">Grok</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">list_alt</span>Lists</li>
+                        <span class="material-symbols-outlined text-3xl">list_alt</span><span class="hidden md:block">Lists</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">person</span>Profile</li>
+                        <span class="material-symbols-outlined text-3xl">person</span><span class="hidden md:block">Profile</span></li>
                     <li
                         class="flex justify-start items-center gap-3 px-3 py-1  hover:bg-gray-800 hover:w-fit hover:rounded-full hover:cursor-pointer">
-                        <span class="material-symbols-outlined text-3xl">pending</span>More</li>
-                    <li><button class="bg-blue-400 py-1 px-20 text-white font-bold rounded-full">Post</button></li>
+                        <span class="material-symbols-outlined text-3xl">pending</span><span class="hidden md:block">More</span></li>
+                    <li><button class="bg-blue-400 py-1 px-20 text-white font-bold rounded-full hidden md:block">Post</button></li>
                 </ul>
             </div>
 
-            <div class="flex rounded-full justify-center items-center hover:bg-gray-900 hover:cursor-pointer p-2">
+            <div class="flex rounded-full justify-center items-center hover:bg-gray-900 hover:cursor-pointer p-2 hidden md:block">
                 <div>
                     <img alt="Shivam armarkar" draggable="true"
                         src="https://pbs.twimg.com/profile_images/1213819027983781888/KAmglEIR_bigger.jpg"
@@ -75,7 +75,7 @@
         </div>
 
         <!--  post section -->
-        <div class="second w-[50%] border border-gray-700 border-y-black">
+        <div class="second md:w-[50%] border border-gray-700 border-y-black">
             <div class="font-medium flex justify-around border border-b-2 border-gray-900">
                 <div class="hover:bg-gray-900 hover:cursor-pointer w-full text-center py-4">For you</div>
                 <div class="hover:bg-gray-900 hover:cursor-pointer w-full text-center py-4">Following</div>
@@ -177,7 +177,7 @@
         </div>
 
 <!-- third section -->
-        <div class="third w-[30%]">
+        <div class="third w-[30%] hidden md:block">
             <div>
                 <input class="w-[80%] rounded-full bg-gray-900 m-3 p-2 outline-none" placeholder="search" />
             </div>

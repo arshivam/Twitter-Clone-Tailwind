@@ -654,6 +654,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -1331,6 +1335,22 @@ video {
 @media (min-width: 768px) {
   .md\:m-0 {
     margin: 0px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:w-\[85\%\] {
+    width: 85%;
+  }
+
+  .md\:w-\[20\%\] {
+    width: 20%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:flex-row {
