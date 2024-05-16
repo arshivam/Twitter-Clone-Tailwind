@@ -588,6 +588,14 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -632,6 +640,14 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .flex {
@@ -740,6 +756,10 @@ video {
 
 .w-12 {
   width: 3rem;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .scroll-my-36 {
