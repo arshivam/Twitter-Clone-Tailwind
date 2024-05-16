@@ -762,6 +762,10 @@ video {
   width: 85%;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .scroll-my-36 {
   scroll-margin-top: 9rem;
   scroll-margin-bottom: 9rem;
@@ -829,6 +833,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .border {
@@ -1164,8 +1172,17 @@ video {
   padding-right: 1rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-center {
